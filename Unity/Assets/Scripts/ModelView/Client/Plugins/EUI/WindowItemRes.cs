@@ -8,6 +8,7 @@ namespace ET.Client
         public static Dictionary<WindowID, List<string>> WindowItemResDictionary = new Dictionary<WindowID, List<string>>()
         {
 			{ WindowID.WindowID_Login, new List<string>(){"Item_test",}},
+			{ WindowID.WindowID_Lobby, new List<string>(){"Item_Deck",}},
         };
     }
 }

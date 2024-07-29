@@ -25,6 +25,7 @@ namespace ET.Server
             {
                 player = playerComponent.AddChild<Player, string>(account);
                 playerComponent.Add(player);
+                player.Fiber().Root.GetComponent<MessageSender>();
                 PlayerSessionComponent playerSessionComponent = player.AddComponent<PlayerSessionComponent>();
                 playerSessionComponent.AddComponent<MailBoxComponent, MailBoxType>(MailBoxType.GateSession);
                 await playerSessionComponent.AddLocation(LocationType.GateSession);

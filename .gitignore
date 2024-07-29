@@ -29,6 +29,8 @@ Unity/Assets/Bundles/AotDlls/*
 Unity/Assets/StreamingAssets/
 Unity/Assets/StreamingAssets.meta
 
+Unity/Assets/Art/
+
 #Unity中的IgnoreAssembly定义文件
 Unity/Assets/Scripts/**/Ignore.asmdef
 Unity/Assets/Scripts/**/Ignore.asmdef.meta
